@@ -1,0 +1,22 @@
+.header {
+    background-color: rgb(6, 6, 255);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 0px;
+    gap: 10px;
+}
+.header-item {
+    text-decoration: none;
+    color: black;
+}
+
+.logoHeader{
+    max-height: 100%;
+}
+.lcon {
+    height: 100%;
+}
