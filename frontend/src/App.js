@@ -6,6 +6,7 @@ import {useState} from "react";
 import Header from './components/shared/header';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import CreatePost from './components/createPost/createPost';
+import ViewPosts from './components/posts/viewposts';
 function App() {
   return(
   <div className='page'>
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/shuffle" element={<Shuffle/>}/>
         <Route exact path="/createpost" element={<CreatePost/>}/>
+        <Route exact path="/posts" element={<ViewPosts/>}/>
       </Routes>
     </BrowserRouter>
   </div>
