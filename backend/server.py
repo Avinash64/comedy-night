@@ -7,6 +7,8 @@ class Item(BaseModel):
     roster: list
     id: int | None = None
     name: str | None = None
+    date: str | None = None
+    address: str|None=None
 
 
 posts = {}
@@ -16,7 +18,9 @@ def add_post(item):
     posts[id_] = {
         "id" : len(list(posts.keys()))+1,
         "list" : item.roster,
-        "name" : item.name
+        "name" : item.name,
+        "date" : item.date,
+        "address": item.address
     }
     return posts[id_]
 

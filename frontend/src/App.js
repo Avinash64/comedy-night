@@ -6,7 +6,7 @@ import {useState} from "react";
 import Header from './components/shared/header';
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import CreatePost from './components/createPost/createPost';
-import ViewPosts from './components/posts/viewposts';
+import ViewPosts from './components/viewPosts/viewposts';
 function App() {
   return(
   <div className='page'>

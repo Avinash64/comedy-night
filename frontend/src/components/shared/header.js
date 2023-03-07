@@ -6,6 +6,7 @@ function Header() {
     <div className='header'>
     <a className="lcon" href='/home'><img src={logo} className="logoHeader"></img></a>
     <a href="/shuffle" className='header-item'>Shuffle</a>
+    <a href="/posts" className='header-item'>Posts</a>
     </div>
   )
 }
